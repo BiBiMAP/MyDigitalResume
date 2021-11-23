@@ -2,86 +2,277 @@
 <html>
 
 <head>
-    <title>My Resume</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>My CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="css/images/favicon.ico" type="image/ico">
 </head>
 
-<body text="black">
+<body text="black"> 
+    <div  id="top" class="mx-auto" class="py-3" class="mx-auto" class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light ms-auto" style="background-color:rgb(255, 255, 255);">
+            <div class="container-fluid">
+                <a class="navbar-brand">Welcome</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul  class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#me-about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu justify-content-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#contact">Contact Me</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Thanks for visiting</a></li>
+                            </ul>
+                        </li>
 
-    <header id="top">
-        <img src="images/pic2-modified.png" alt="" width="234" height="251">
-        <h1>Rachel Lukanga</h1>
-        <p>An aspiring Web developer  </p>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <header  id="home" class="content">
+        <img class="py-5" src="css/images/smiling-noteeth.png" class="img-thumbnail" class="img-fluid" alt="avatar-smilling-women"
+            width="234" height="300" 
+            onmouseout="this.src='smiling-noteeth.png'"
+            onmouseover="this.src='smiling-teeth.png'" >
+        <h1 class="display-4">Rachel Lukanga</h1>
+        <h4 class="py-5" class="display-3">An aspiring Web developer </h4>
+        <a href="#down"><img src="css/images/down arrow.png" alt="a-down-arrow" ></a>
     </header>
-    <article>
-        <aside>
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
 
-            </ul>
-        </aside>
-        <section>
-            <h2 id="education" class="mini-heads">Education</h2>
+            <div class="container" id="down">
+                <div class="row">
 
-            <h3>Front-End Development <a href="https://www.instagram.com/codespaceza/" target="_blank">CodeSpace Academy</a>
-            </h3>
-            <p>Completed an intro to web development course at CodeSpace where I learnt HTML and CSS</p>
+                    <h1  id="me-about"  class="display-4 py-5"  class="h1-responsive font-weight-bold text-center my-4">About me</h1>
+                    <p class="lead">Welcome to my online Resumé, I am an Aspiring Web Developer/Designer.
+                        Before we head into the rest of my cv I would like to give you a quick intro about me. </p>
 
-            <h3 id="experience">FullStack Web Dev Course on Udemy </h3>
-            <p> Online Web Development Course</p>
+                    <div class="card" class="text-white bg-secondary" style="width: 18rem;" >
+                        <img src="css/images/climbing.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body px-5">
+                            <h5 class="card-title">Rock Climbing</h5>
+                            <p class="lead text-muted" class="card-text">Outside of my courses and learning how to code time I enjoy rock climbing and my favourite place to climb is called Rocklands its about 3hrs from Cape Town City.</p>
+                        </div>
+                    </div>
 
-            <h2 class="mini-heads">Experience</h2>
-            <h3>RESEARCH CONSULTANT, PROJECT FLORISH, NEW YORK, USA (2021-PRESENT)</h3>
-            <ul>
-                <li>Analysing social research in the field of positive psychology and the science of giving. </li>
-                <li>Verifying relevance to topic areas in positive psychology.</li>
-                <li>Documenting the citations, references and linking research papers to topic area in excel database.</li>
-            </ul>
-            <h3>RESEARCH CONSULTANT, MINDJOY, CAPE TOWN, SOUTH AFRICA (2021-2021)</h3>
-            <ul>
-                <li>Identified trends in online tutoring including pay rates, teaching curriculums, platforms for tutoring and types of tutors</li>
-                <li>Generated survey spreadsheets for client data collection</li>
-                <li>Analysed data to improve the marketability of on-line learning platforms for children in South Africa and across the globe</li>
-            </ul>
+                    <div  class="card" class="text-white bg-secondary" class="col-3" style="width: 18rem;">
+                        <img  src="css/images/half half.jpeg" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Representin</h5>
+                            <p class="lead text-muted" class="card-text ">Learning to love color and what meets the eye. When I'm not climbing I tapping into my creative inner self. By drawing, painting, and occasionally playing around with different color hairstyles.</p>
 
-            <h3>CONSULTANT, LIBRARY INDEXING, MOUNTAIN CLUB OF SOUTH AFRICA, CAPE TOWN, SA (2018-2019)</h3>
-            <ul>
-                <li>Catalogued the mountain club library</li>
-                <li>Established an on-line library (<a href="https://www.mcsacapetown.co.za/library/">Mountain Club Library</a>) </li>
-                <li>Organized Mountain Club book collection on-line </li>
-                <li>Verified information and content in paper with on-line</li>
-            </ul>
-            <h2 id="skills" class="mini-heads">Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>basic CSS</li>
-                <li>CRITICAL THINKER</li>
-                <li>WORK WELL IN A TEAM</li>
-            </ul>
-            <h2>Interest</h2>
-            <ul>
-                <li>Rock Climbing(bouldering)</li>
-                <li>Reading</li>
-                <li>Hiking</li>
-                <li>Volunteering</li>
-                <li>Coding</li>
-            </ul>
-            <a href="#top">Back to top</a>
-        </section>
-    </article>
+                        </div>
+                    </div>
+                    
+                    <div class="card" class="col-3" class="text-white bg-secondary" style="width: 18rem;">
+                        <img src="css/images/smiling-noteeth.png" alt="..." class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">learning</h5>
+                            <p class="lead text-muted" class="card-text">Learning never stops for me and I always try to find solutions and understading the ideas and concepts that work with whatever projects i come across.</p>
+                        </div>
+                    </div>
 
-    <footer>
-        <h3>Contact Details</h3>
+                </div>
+            </div>
+    <br>
+
+
+
+
+
+        <h2 class="display-4 py-4 px-5" id="skills" class="h1-responsive font-weight-bold text-center my-4">Skills</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner py-5">
+              <div class="carousel-item active px-5">
+                <img src="css/images/css.png" class="d-block w-100" alt="..." height="600rem" width="5rem">
+              </div>
+              <div class="carousel-item px-5">
+                <img src="css/images/htmlpic.jpg" class="d-block w-100" alt="..." height="600rem" width="5rem">
+              </div>
+              <div class="carousel-item px-5">
+                <img src="css/images/bootstrap.png" class="d-block w-100" alt="..." height="600rem" width="1rem">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    <!--  <h2 id="education" class="mini-heads h1 display-1">Education</h2>
+                <div class="container">
+                    <div class="row">
+                        <section class="col">
+
+                            <h3 >Front-End Development <a href="https://www.instagram.com/codespaceza/" target="_blank">CodeSpace Academy</a>
+                            </h3>
+                    
+                    <p>Completed an intro to web development course at CodeSpace where I learnt HTML and CSS</p>
+                </section>
+
+                <section  class="col" id="education" >
+                    <h3>FullStack Web Dev Course on Udemy </h3>
+                    <p> Online Web Development Course</p>
+                </section>
+                   
+                <section  class="col" id="education">
+                    <h3>FullStack Web Dev Course on Udemy </h3>
+                    <p> Online Web Development Course</p>
+                </section>
+                </div>
+                </div>-->
+
+    <section class="that-part">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 id="experience" class="display-4 py-5 px-5" class="h1-responsive font-weight-bold text-center" class="pb-4" >Experience</h2>
+
+                <div class="col-4 px-5">
+                    <h4>FLUSH BATHROOMS(SIBO) (2021-PRESENT)</h4>
+                    <ul class="lead py-5">
+                        <li>Co-Managing a warehouse with stock </li>
+                        <li>Ansering cellphone/assisting clients with day to day problems</li>
+                        <li>Capturing customer purchase orders/Working with inventory.</li>
+                    </ul>
+                </div>
+
+                <div class="col" class="py-5">
+                    <h4>PROJECT FLORISH, NEW YORK, USA (2021-2022)</h4>
+                    <ul class="lead py-5" class="list-inline">
+                        <li>Analysing social research in the field of positive psychology and the science of giving.
+                        </li>
+                        <li>Verifying relevance to topic areas in positive psychology.</li>
+                        <li>Documenting the citations, references and linking research papers to topic area in excel
+                            database.</li>
+                    </ul>
+                </div>
+
+                <div class="row px-5">
+                    <div class="col-4" >
+                        <h4>MINDJOY, CAPE TOWN, SOUTH AFRICA (2021-2021)</h4>
+                        <ul class="lead py-5">
+                            <li>Identified trends in online tutoring including pay rates, teaching curriculums,
+                                platforms for tutoring and types of tutors</li>
+                            <li>Generated survey spreadsheets for client data collection</li>
+                            <li>Analysed data to improve the marketability of on-line learning platforms for children in
+                                South
+                                Africa and across the globe</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4">
+                        <h4>LIBRARY INDEXING, MOUNTAIN CLUB OF SOUTH AFRICA, CAPE TOWN, SA (2018-2019)</h4>
+                        <ul class="lead py-5">
+                            <li>Catalogued the mountain club library</li>
+                            <li>Established an on-line library (<a
+                                    href="https://www.mcsacapetown.co.za/library/">Mountain Club Library</a>) </li>
+                            <li>Organized Mountain Club book collection on-line </li>
+                            <li>Verified information and content in paper with on-line</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div>
+
+    </section>
+
+    <!--      <h2 id="vw" class="mini-heads">Volunteer work</h2>
+                    <ul>
+                        <li>Vonlunteer rock climbing coach(coaching first time climbers with dream higher)</li>
+                        <li>Mountain Club outreach volunteer(taking kids out hiking)</li>
+                        <li>Aquarium Volunteer(2019-2021)</li>
+                    </ul>
+                </div> -->
+
+    </div>
+
+    </div>
+
+    <div class="container py-4">
+
+        <h1 class="display-4 py-5" id="contact">Contact me</h1>
+
+     
+        <form id="contactForm" action="mailto:rachelray60@outlook.com">
+
+            <div class="mb-3">
+                <label class="lead" class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+            </div>
+
+            <div class="mb-3">
+                <label class="lead" class="form-label" for="emailAddress">Email Address</label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address"
+                    data-sb-validations="required, email" />
+            </div>
+
+            <div class="mb-3">
+                <label class="lead" class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"
+                    data-sb-validations="required"></textarea>
+            </div>
+
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <a href="#top" class="px-5 px-5 pb-5"><button type="button" class="btn btn-secondary">Top</button></a>
+    
+    <footer class="content">
+
 
         <a href="mailto:raylakhanya@gmail.com" target="_blank">
-            <img class="icons" src="images/gmail-logo.png" alt="gmail logo"></a>
-        <a href="https://www.linkedin.com/in/rachel-lukanga-572a4b21b/" target="_blank">
-            <img class="icons" src="images/Linkedin-logo-vector-PNG.png" alt=""></a>
+            <img class="icons" src="css/images/gmaillogo.jpg" alt="gmail logo"></a>
 
-    </footer>
+            <a href="https://https://github.com/BiBiMAP" target="_blank">
+                <img class="icons" src="css/images/github.png" alt=""></a>
+           
+        <a href="https://www.linkedin.com/in/rachel-lukanga-572a4b21b/" target="_blank">
+            <img class="icons" src="css/images/linklogo.png" alt=""></a>
+        <p class="lead">Feel free to contact me via the form or on my socials:)<p>
+                </footer>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous">
+                </script>
 </body>
 
 </html>

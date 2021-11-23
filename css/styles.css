@@ -1,0 +1,179 @@
+body {
+    font-family:'Glory';
+    src: url('fonts/Glory-Regular.ttf');
+    font-size: 110%;
+    background-color: #FAF1E6;
+    color: #506D84;
+    display: flex;
+    flex-direction: column;
+  }
+
+   @font-face {
+    font-family:'Glory';
+    src: url('fonts/Glory-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .container {
+    display: inline;
+  }
+
+  .that-part {
+    background-color: rgb(219, 219, 219);
+  }
+
+  .for-cards {
+   height: 100px;
+   width: 100px;
+   display: inline;
+  }
+
+  header {
+    background-image: url(backgroundimg.png);
+    background-color: rgb(219, 219, 219);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 700px;
+  }
+ 
+  article {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+
+  nav {
+    width: 100%;
+    background-color: white;
+    color: #E4EFE7;
+  }
+
+  footer {
+    background-color: rgb(8, 6, 85);
+    color: azure;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+.icons {
+  width: 3rem;
+  margin: 0.5rem;
+  height: auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+ul {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 696px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+  ul {
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 65px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 23px;
+  }
+  ul {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (min-width: 1392px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 19px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  ul {
+    font-size: 19px;
+  }
+}
+
+@keyframes pic {
+  0% {
+    background-image: url(css/smiling);
+  }
+  100% {
+    background-image: url();
+  }
+    
+  
+}
